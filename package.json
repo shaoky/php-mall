@@ -1,0 +1,20 @@
+{
+  "name": "tp_mall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.php",
+  "scripts": {
+    "apidoc-app": "apidoc -i application/app/ -o  public/apidoc/app/",
+    "apidoc-h5": "apidoc -i application/h5/ -o  public/apidoc/h5/",
+    "apidoc-admin": "apidoc -i application/admin/ -o  public/apidoc/admin/",
+    "apidoc-apphm": "apidoc -i application/apphm/ -o  public/apidoc/apphm/",
+    "apidoc-common": "apidoc -i application/comm/ -o  public/apidoc/common/"
+  },
+  "author": "",
+  "license": "ISC",
+  "apidoc": {
+    "name": "接口文档",
+    "title": "接口文档",
+    "url": "https://api.mall.shaoky.com"
+  }
+}
